@@ -1,0 +1,5 @@
+suites:
+   smartpurge_suite:
+       namespace:  SmartPurge
+       psr4_prefix:  SmartPurge
+       src_path:  src

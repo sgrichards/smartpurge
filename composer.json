@@ -1,0 +1,29 @@
+{
+    "name": "sgrichards/smartpurge",
+    "description": "Limelight Smartpurge API - PHP library",
+    "minimum-stability": "stable",
+    "keywords": ["limelight","smartpurge","smart purge","cdn","purge","cache","sdk","api"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Steve Richards",
+            "email": "steve@8balldev.uk"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmartPurge\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^5.0"
+    }
+}
