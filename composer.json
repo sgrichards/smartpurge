@@ -24,6 +24,6 @@
         "guzzlehttp/guzzle": "^6.1"
     },
     "require-dev": {
-        "phpspec/phpspec": "^5.0"
+        "phpspec/phpspec": "^4.3.1"
     }
 }
